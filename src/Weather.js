@@ -10,7 +10,7 @@ function Weather(props) {
         q: props.countries[props.index]['capital']
       }
     useEffect(() => {
-        axios.get('http://api.weatherapi.com/v1/current.json', {params})
+        axios.get('https://api.weatherapi.com/v1/current.json', {params})
     .then(response => {
       const apiResponse = response.data;
       setWeatherData(apiResponse);
