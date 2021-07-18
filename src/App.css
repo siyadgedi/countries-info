@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+.background {
+  text-align: left;
+  height:120vh;
+  background-color: #424242;
+  padding:0.5px;
+  text-align:center;
+}
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color:white;
+  padding-top: 5rem;
+  background-color: #424242;
+}
+
+.country {
+  margin: auto;
+  background-color: lightslategray;
+  border-radius: 5px;
+  width: 15rem;
+  justify-content: center;
+}
+
+
+
